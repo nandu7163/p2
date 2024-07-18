@@ -1,0 +1,28 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "my own project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", // Example script to start your application
+    "test": "mocha" // Example script to run tests (use appropriate test framework)
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sample"
+  ],
+  "author": "nandu",
+  "license": "MIT",
+  "dependencies": {
+    // List of dependencies required for your project
+    "express": "^4.17.1",
+    // Example: Replace with actual dependencies your project uses
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    // List of development dependencies (e.g., testing frameworks, build tools)
+    "mocha": "^9.1.0",
+    "chai": "^4.3.4"
+  }
+}
